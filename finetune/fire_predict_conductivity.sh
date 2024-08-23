@@ -1,0 +1,16 @@
+python -W ignore fire_molformer_predict.py \
+        --device cuda \
+        --batch_size 1  \
+        --n_head 12 \
+        --n_layer 12 \
+        --n_embd 768 \
+        --d_dropout 0.1 \
+        --dropout 0.1 \
+        --lr_start 3e-5 \
+        --num_workers 8\
+        --num_feats 32 \
+        --dataset_name conductivity \
+        --data_root ../data/conductivity \
+        --measure_name conductivity \
+        --dims 768 768 768 1 \
+        --checkpoints_folder './checkpoints_conductivity'\

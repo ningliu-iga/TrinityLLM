@@ -1,0 +1,19 @@
+python fire_finetune_pubchem_light_relL2Loss_LRSchedule.py \
+        --device cuda \
+        --batch_size 50  \
+        --n_head 12 \
+        --n_layer 12 \
+        --n_embd 768 \
+        --d_dropout 0.1 \
+        --dropout 0.1 \
+        --lr_start 3e-5 \
+        --num_workers 8\
+        --max_epochs 500 \
+        --num_feats 32 \
+        --checkpoint_every 100 \
+        --seed_path '../data/Pretrained MoLFormer/checkpoints/N-Step-Checkpoint_3_30000.ckpt' \
+        --dataset_name density \
+        --data_root ../data/density \
+        --measure_name density \
+        --dims 768 768 768 1 \
+        --checkpoints_folder './checkpoints_density'\
