@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14278416.svg)](https://doi.org/10.5281/zenodo.14278416)
+
 # Large language models, physics-based modeling, experimental measurements: the trinity of data-scarce learning of polymer properties
 
 This is the official implementation of TrinityLLM:
