@@ -117,11 +117,13 @@ To load a trained model and directly make predictions (note that the trained che
 
 If you find this repository useful, please consider citing our paper:
 ```latex
-@article{liu2024large,
-  title={Large language models, physics-based modeling, experimental measurements: the trinity of data-scarce learning of polymer properties},
+@article{liu2025harnessing,
+  title={Harnessing large language models for data-scarce learning of polymer properties},
   author={Liu, Ning and Jafarzadeh, Siavash and Lattimer, Brian Y and Ni, Shuna and Lua, Jim and Yu, Yue},
-  journal={arXiv preprint arXiv:2407.02770},
-  year={2024}
+  journal={Nature Computational Science},
+  pages={1--10},
+  year={2025},
+  publisher={Nature Publishing Group US New York}
 }
 ```
 
