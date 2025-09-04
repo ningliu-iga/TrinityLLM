@@ -4,7 +4,7 @@
 
 This is the official implementation of TrinityLLM:
 
-Ning Liu, Siavash Jafarzadeh, Brian Y Lattimer, Shuna Ni, Jim Lua, Yue Yu. "[Harnessing large language models for data-scarce learning of polymer properties](https://www.nature.com/articles/s43588-025-00768-y)".
+Ning Liu, Siavash Jafarzadeh, Brian Y Lattimer, Shuna Ni, Jim Lua, Yue Yu. "[Harnessing large language models for data-scarce learning of polymer properties](https://www.nature.com/articles/s43588-025-00768-y)", Nature Computational Science 5.3 (2025): 245-254.
 
 
 ![](assets/overview_trinityLLM.png)
